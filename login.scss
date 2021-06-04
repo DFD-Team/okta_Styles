@@ -68,7 +68,7 @@ $mobile-max-breakpoint: $mobile-breakpoint - 1;
 }
 .client-login-message {
   color: $color-white;
-  text-shadow: 0px 3px 6px #19191936;
+  text-shadow: 0px 3px 6px rgba(16, 11, 11, 0.21);
   margin-top: 177px;
   font-family: $font-family-montserrat;
   font-weight: 600;
@@ -242,6 +242,15 @@ body {
         padding: 18px 30px 0 30px;
         @media (max-width: $mobile-max-breakpoint) {
           padding: 20px 15px 0 15px;
+        }
+        .reset-email-sent-icon {
+          display: flex;
+          margin: 15px auto 18px auto;
+          & + h2.okta-form-title {
+            color: $color-secondary;
+            font-weight: 500;
+            margin-bottom: 7px;
+          }
         }
         .o-form-content {
           margin-bottom: 10px;

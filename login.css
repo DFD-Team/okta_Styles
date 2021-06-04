@@ -201,6 +201,19 @@
  body #okta-sign-in.auth-container {
 	 border-radius: 10px;
 }
+ body #okta-sign-in.auth-container .mfa-beacon-container {
+	 bottom: -105px;
+}
+ body #okta-sign-in.auth-container .mfa-verify {
+	 margin-top: 95px;
+}
+ body #okta-sign-in.auth-container .mfa-verify h2.okta-form-title {
+	 margin-bottom: 6px;
+}
+ body #okta-sign-in.auth-container .mfa-verify .mfa-send-email-content {
+	 text-align: center;
+	 margin-bottom: 25px;
+}
  body #okta-sign-in.auth-container.main-container {
 	 margin: 60px 0;
 	 font-family: Helvetica, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -253,6 +266,10 @@
 	 color: #2e2840;
 	 font-weight: 500;
 	 margin-bottom: 7px;
+}
+ body #okta-sign-in.auth-container .auth-content .reset-email-sent-icon + h2.okta-form-title + .okta-form-subtitle {
+	 color: #737375;
+	 font-size: 16px;
 }
  body #okta-sign-in.auth-container .auth-content .o-form-content {
 	 margin-bottom: 10px;

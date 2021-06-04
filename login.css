@@ -206,6 +206,7 @@
 }
  body #okta-sign-in.auth-container .mfa-verify {
 	 margin-top: 95px;
+	 margin-bottom: 112px;
 }
  body #okta-sign-in.auth-container .mfa-verify h2.okta-form-title {
 	 margin-bottom: 6px;

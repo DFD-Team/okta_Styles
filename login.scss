@@ -4,6 +4,7 @@ $primary-color: #007bb3;
 $color-primary-hover: #006098;
 $color-white: #fff;
 $color-border: #ccc;
+$color-bg: #f3f3f3;
 $header-height: 90px;
 $input-height: 45px;
 $color-text-black: #000;
@@ -206,14 +207,12 @@ body {
         bottom: -92px;
         width: 75px;
         height: 75px;
-        .auth-beacon-factor {
+        .auth-beacon-border {
+          border: 1px solid $primary-color;
           top: 0;
           bottom: 0;
           right: 0;
           left: 0;
-        }
-        .auth-beacon-border{
-          border: 1px solid #007BB3;
         }
         .factors-dropdown-wrap {
           .dropdown {
@@ -228,16 +227,57 @@ body {
             }
           }
         }
+        .okta-dropdown-list {
+          border-radius: 6px;
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          .dropdown-list-title {
+            font-family: $font-family-montserrat;
+          }
+          .okta-dropdown-option {
+            border-bottom: 0;
+            &:not(.option-disabled):hover,
+            &:not(.option-disabled):focus-within {
+              background: $color-bg;
+            }
+            a {
+              font-size: 16px;
+            }
+          }
+        }
       }
       .mfa-verify {
-        margin-top: 95px;
+        margin-top: 76px;
         margin-bottom: 112px;
         h2.okta-form-title {
           margin-bottom: 6px;
         }
+        .okta-form-subtitle {
+          color: $color-text-gray;
+          margin-bottom: 15px;
+        }
         .mfa-send-email-content {
           text-align: center;
-          margin-bottom: 25px;
+        }
+        .o-form-fieldset {
+          min-width: calc(100% - 168px);
+        }
+        .o-form-control {
+          border-radius: 0;
+        }
+        .button {
+          &:not(.button-primary) {
+            margin-top: 21px;
+            min-width: 152px;
+            margin-left: auto;
+            background: $color-white;
+            border-radius: 0;
+            color: $color-text-gray;
+            &:active,
+            &:hover,
+            &:focus {
+              border-color: darken($color-border , 20%);
+            }
+          }
         }
       }
       &.main-container {
@@ -279,6 +319,7 @@ body {
         padding: 18px 30px 0 30px;
         @media (max-width: $mobile-max-breakpoint) {
           padding: 20px 15px 0 15px;
+          max-width: none;
         }
         .reset-email-sent-icon {
           display: flex;

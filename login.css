@@ -202,7 +202,29 @@
 	 border-radius: 10px;
 }
  body #okta-sign-in.auth-container .mfa-beacon-container {
-	 bottom: -105px;
+	 bottom: -92px;
+	 width: 75px;
+	 height: 75px;
+}
+ body #okta-sign-in.auth-container .mfa-beacon-container .auth-beacon-factor {
+	 top: 0;
+	 bottom: 0;
+	 right: 0;
+	 left: 0;
+}
+ body #okta-sign-in.auth-container .mfa-beacon-container .auth-beacon-border {
+	 border: 1px solid #007bb3;
+}
+ body #okta-sign-in.auth-container .mfa-beacon-container .factors-dropdown-wrap .dropdown {
+	 border-radius: 0;
+}
+ body #okta-sign-in.auth-container .mfa-beacon-container .factors-dropdown-wrap .dropdown .link-button.option-selected {
+	 height: 24px;
+	 width: 21px;
+	 border-radius: 0;
+}
+ body #okta-sign-in.auth-container .mfa-beacon-container .factors-dropdown-wrap .dropdown .link-button.option-selected .icon-dm {
+	 right: 4px;
 }
  body #okta-sign-in.auth-container .mfa-verify {
 	 margin-top: 95px;
@@ -319,13 +341,13 @@
 	 min-width: 152px;
 }
  body #okta-sign-in.auth-container input[type="submit"].button-primary, body #okta-sign-in.auth-container .button-primary {
-	 font-size: 18px;
+	 font-size: 16px;
 	 font-family: "Montserrat", Helvetica, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	 font-weight: 400;
 	 background-image: none;
 	 background-color: #007bb3;
 	 border: none;
-	 max-height: 45px;
+	 max-height: 40px;
 }
  body #okta-sign-in.auth-container input[type="submit"].button-primary:hover, body #okta-sign-in.auth-container .button-primary:hover {
 	 background-color: #006098;
@@ -405,7 +427,7 @@
 	 margin-bottom: 0 !important;
 }
  body #okta-sign-in.auth-container .o-form-fieldset.required-field label::after {
-	 content: '*';
+	 content: "*";
 	 color: #f42b36;
 }
  body #okta-sign-in.auth-container .o-form-fieldset.enroll-sms-phone {

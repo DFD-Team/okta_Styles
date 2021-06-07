@@ -206,14 +206,12 @@
 	 width: 75px;
 	 height: 75px;
 }
- body #okta-sign-in.auth-container .mfa-beacon-container .auth-beacon-factor {
+ body #okta-sign-in.auth-container .mfa-beacon-container .auth-beacon-border {
+	 border: 1px solid #007bb3;
 	 top: 0;
 	 bottom: 0;
 	 right: 0;
 	 left: 0;
-}
- body #okta-sign-in.auth-container .mfa-beacon-container .auth-beacon-border {
-	 border: 1px solid #007bb3;
 }
  body #okta-sign-in.auth-container .mfa-beacon-container .factors-dropdown-wrap .dropdown {
 	 border-radius: 0;
@@ -227,15 +225,28 @@
 	 right: 4px;
 }
  body #okta-sign-in.auth-container .mfa-verify {
-	 margin-top: 95px;
+	 margin-top: 76px;
 	 margin-bottom: 112px;
 }
  body #okta-sign-in.auth-container .mfa-verify h2.okta-form-title {
 	 margin-bottom: 6px;
 }
+ body #okta-sign-in.auth-container .mfa-verify .okta-form-subtitle {
+	 color: #737375;
+	 margin-bottom: 15px;
+}
  body #okta-sign-in.auth-container .mfa-verify .mfa-send-email-content {
 	 text-align: center;
 	 margin-bottom: 25px;
+}
+ body #okta-sign-in.auth-container .mfa-verify .o-form-fieldset {
+	 min-width: 203px;
+}
+ body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary) {
+	 margin-top: 21px;
+	 min-width: 152px;
+	 margin-left: auto;
+	 background: #fff;
 }
  body #okta-sign-in.auth-container.main-container {
 	 margin: 60px 0;

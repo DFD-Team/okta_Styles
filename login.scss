@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 $primary-color: #007bb3;
@@ -204,7 +203,31 @@ body {
     &.auth-container {
       border-radius: 10px;
       .mfa-beacon-container {
-        bottom: -105px;
+        bottom: -92px;
+        width: 75px;
+        height: 75px;
+        .auth-beacon-factor {
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+        }
+        .auth-beacon-border{
+          border: 1px solid #007BB3;
+        }
+        .factors-dropdown-wrap {
+          .dropdown {
+            border-radius: 0;
+            .link-button.option-selected {
+              height: 24px;
+              width: 21px;
+              border-radius: 0;
+              .icon-dm {
+                right: 4px;
+              }
+            }
+          }
+        }
       }
       .mfa-verify {
         margin-top: 95px;
@@ -319,13 +342,13 @@ body {
       }
       input[type="submit"].button-primary,
       .button-primary {
-        font-size: 18px;
+        font-size: 16px;
         font-family: $font-family-montserrat;
         font-weight: 400;
         background-image: none;
         background-color: $primary-color;
         border: none;
-        max-height: 45px;
+        max-height: 40px;
         &:hover {
           background-color: $color-primary-hover;
           background-image: none;
@@ -411,7 +434,7 @@ body {
         }
         &.required-field {
           label::after {
-            content: '*';
+            content: "*";
             color: #f42b36;
           }
         }

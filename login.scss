@@ -275,9 +275,53 @@ body {
             &:active,
             &:hover,
             &:focus {
-              border-color: darken($color-border , 20%);
+              border-color: darken($color-border, 20%);
             }
           }
+        }
+      }
+      .enroll-email,
+      .enroll-sms,
+      .enroll-call {
+        margin-top: 76px;
+        margin-bottom: 32px;
+        .o-form-button-bar {
+          margin-bottom: 48px;
+        }
+        .enroll-call-phone {
+          width: 243px;
+        }
+        .enroll-sms-phone {
+          float: left;
+          width: calc(100% - 165px);
+        }
+        .sms-request-button.link-button.button {
+          float: right;
+          margin: 21px 0 0 0;
+          height: 45px;
+          max-height: 45px;
+          border-radius: 0;
+          width: 152px;
+        }
+        .o-form-select {
+          border: 0 !important;
+          .chzn-single {
+            height: 45px;
+            border-color: #ccc;
+            border-radius: 0;
+            span {
+              line-height: 45px;
+            }
+            div {
+              top: 0;
+              b {
+                background-position: 0 12px;
+              }
+            }
+          }
+        }
+        .o-form-control {
+          border-radius: 0;
         }
       }
       &.main-container {
@@ -490,6 +534,57 @@ body {
         }
         .o-form-input-error .o-form-explain {
           word-break: break-word;
+        }
+      }
+    }
+
+    .enroll-factor-list {
+      margin-top: 37px;
+      margin-bottom: 0;
+      .enroll-factor-label {
+        font-family: $font-family-montserrat;
+        font-weight: 400;
+        color: $color-secondary;
+        font-size: 16px;
+        margin-bottom: 5px;
+        line-height: 19px;
+      }
+      .enroll-factor-description {
+        p {
+          font-size: 16px;
+          color: $color-text-gray;
+          font-weight: 400;
+        }
+      }
+      .enroll-factor-button {
+        display: inline-block;
+        .button {
+          border: 1px solid $primary-color;
+          background: #fff;
+          color: $primary-color;
+          padding: 0 13px;
+          border-radius: 0;
+          &:hover,
+          &:active,
+          &:focus {
+            border-color: $color-primary-hover;
+            color: $color-primary-hover;
+          }
+        }
+      }
+      .enroll-factor-row {
+        margin-bottom: 24px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      .enroll-factor-icon-container {
+        margin-right: 24px;
+        .enroll-factor-icon {
+          border-color: $primary-color;
+          height: 44px;
+          width: 44px;
+          background-size: contain;
         }
       }
     }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;\400;500;600;700&display=swap");
  .client-header {
 	 display: flex;
 	 height: 90px;
@@ -271,11 +271,11 @@
  body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):active, body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):hover, body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):focus {
 	 border-color: #999;
 }
- body #okta-sign-in.auth-container .enroll-email {
+ body #okta-sign-in.auth-container .enroll-email, body #okta-sign-in.auth-container .enroll-sms, body #okta-sign-in.auth-container .enroll-call {
 	 margin-top: 76px;
 	 margin-bottom: 32px;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-button-bar {
+ body #okta-sign-in.auth-container .enroll-email .o-form-button-bar, body #okta-sign-in.auth-container .enroll-sms .o-form-button-bar, body #okta-sign-in.auth-container .enroll-call .o-form-button-bar {
 	 margin-bottom: 48px;
 }
  body #okta-sign-in.auth-container.main-container {

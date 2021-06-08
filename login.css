@@ -281,8 +281,20 @@
  body #okta-sign-in.auth-container .enroll-email .enroll-call-phone, body #okta-sign-in.auth-container .enroll-sms .enroll-call-phone, body #okta-sign-in.auth-container .enroll-call .enroll-call-phone {
 	 width: 243px;
 }
+ body #okta-sign-in.auth-container .enroll-email .enroll-sms-phone, body #okta-sign-in.auth-container .enroll-sms .enroll-sms-phone, body #okta-sign-in.auth-container .enroll-call .enroll-sms-phone {
+	 float: left;
+	 width: calc(100% - 165px);
+}
+ body #okta-sign-in.auth-container .enroll-email .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-sms .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-call .sms-request-button.link-button.button {
+	 float: right;
+	 margin: 21px 0 0 0;
+	 height: 45px;
+	 max-height: 45px;
+	 border-radius: 0;
+	 width: 152px;
+}
  body #okta-sign-in.auth-container .enroll-email .o-form-select, body #okta-sign-in.auth-container .enroll-sms .o-form-select, body #okta-sign-in.auth-container .enroll-call .o-form-select {
-	 border: 0;
+	 border: 0 !important;
 }
  body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single {
 	 height: 45px;

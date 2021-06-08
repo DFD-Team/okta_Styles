@@ -477,6 +477,50 @@
  body #okta-sign-in.auth-container .o-form-fieldset .o-form-input-error .o-form-explain {
 	 word-break: break-word;
 }
+ body #okta-sign-in .enroll-factor-list {
+	 margin-top: 37px;
+	 margin-bottom: 0;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-label {
+	 font-family: "Montserrat", Helvetica, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	 font-weight: 400;
+	 color: #2e2840;
+	 font-size: 16px;
+	 margin-bottom: 5px;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-description p {
+	 font-size: 16px;
+	 color: #737375;
+	 font-weight: 400;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-button {
+	 display: inline-block;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-button .button {
+	 border: 1px solid #007bb3;
+	 background: #fff;
+	 color: #007bb3;
+	 padding: 0 13px;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-button .button:hover, body #okta-sign-in .enroll-factor-list .enroll-factor-button .button:active, body #okta-sign-in .enroll-factor-list .enroll-factor-button .button:focus {
+	 border-color: #006098;
+	 color: #006098;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-row {
+	 margin-bottom: 24px;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-row:last-child {
+	 margin-bottom: 0;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-icon-container {
+	 margin-right: 24px;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-icon-container .enroll-factor-icon {
+	 border-color: #007bb3;
+	 height: 44px;
+	 width: 44px;
+	 background-size: contain;
+}
  body #okta-sign-in .password-requirements--header {
 	 color: #2e2840;
 	 font-size: 16px;

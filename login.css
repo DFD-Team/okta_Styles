@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;\400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
  .client-header {
 	 display: flex;
 	 height: 90px;
@@ -277,6 +277,29 @@
 }
  body #okta-sign-in.auth-container .enroll-email .o-form-button-bar, body #okta-sign-in.auth-container .enroll-sms .o-form-button-bar, body #okta-sign-in.auth-container .enroll-call .o-form-button-bar {
 	 margin-bottom: 48px;
+}
+ body #okta-sign-in.auth-container .enroll-email .enroll-call-phone, body #okta-sign-in.auth-container .enroll-sms .enroll-call-phone, body #okta-sign-in.auth-container .enroll-call .enroll-call-phone {
+	 width: 243px;
+}
+ body #okta-sign-in.auth-container .enroll-email .o-form-select, body #okta-sign-in.auth-container .enroll-sms .o-form-select, body #okta-sign-in.auth-container .enroll-call .o-form-select {
+	 border: 0;
+}
+ body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single {
+	 height: 45px;
+	 border-color: #ccc;
+	 border-radius: 0;
+}
+ body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single span, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single span, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single span {
+	 line-height: 45px;
+}
+ body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single div, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single div, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single div {
+	 top: 0;
+}
+ body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single div b, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single div b, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single div b {
+	 background-position: 0 12px;
+}
+ body #okta-sign-in.auth-container .enroll-email .o-form-control, body #okta-sign-in.auth-container .enroll-sms .o-form-control, body #okta-sign-in.auth-container .enroll-call .o-form-control {
+	 border-radius: 0;
 }
  body #okta-sign-in.auth-container.main-container {
 	 margin: 60px 0;

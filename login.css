@@ -281,7 +281,7 @@
  body #okta-sign-in.auth-container .enroll-email .enroll-call-phone, body #okta-sign-in.auth-container .enroll-sms .enroll-call-phone, body #okta-sign-in.auth-container .enroll-call .enroll-call-phone {
 	 width: 243px;
 }
- body #okta-sign-in.auth-container .enroll-email .enroll-sms-phone, body #okta-sign-in.auth-container .enroll-sms .enroll-sms-phone, body #okta-sign-in.auth-container .enroll-call .enroll-sms-phone {
+ body #okta-sign-in.auth-container .enroll-email .o-form-fieldset.enroll-sms-phone, body #okta-sign-in.auth-container .enroll-sms .o-form-fieldset.enroll-sms-phone, body #okta-sign-in.auth-container .enroll-call .o-form-fieldset.enroll-sms-phone {
 	 float: left;
 	 width: calc(100% - 165px);
 }

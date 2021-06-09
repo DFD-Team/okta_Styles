@@ -282,7 +282,8 @@ body {
       }
       .enroll-email,
       .enroll-sms,
-      .enroll-call {
+      .enroll-call,
+      .enroll-activate-email {
         margin-top: 76px;
         margin-bottom: 32px;
         .o-form-button-bar {
@@ -291,9 +292,39 @@ body {
         .enroll-call-phone {
           width: 243px;
         }
-        .enroll-sms-phone {
+        .okta-form-divider {
+          border-width: 0;
+        }
+        .o-form-fieldset.enroll-sms-phone {
           float: left;
           width: calc(100% - 165px);
+        }
+        .call-request-button.link-button.button {
+          margin-bottom: 9px;
+          border-radius: 0;
+          background-image: none;
+          background-color: $primary-color;
+          border: none;
+          max-height: 40px;
+          color: $color-white;
+          &:hover {
+            background-color: $color-primary-hover;
+            background-image: none;
+          }
+        }
+        .link-button.link-button-disabled.button {
+          background: $color-white !important;
+          color: $color-black !important;
+          border: 1px solid $color-border !important;
+          border-radius: 0;
+          cursor: not-allowed;
+          &:hover,
+          &:active,
+          &:focus {
+            background: $color-white !important;
+            color: $color-black !important;
+            border-color: $color-border !important;
+          }
         }
         .sms-request-button.link-button.button {
           float: right;
@@ -302,12 +333,20 @@ body {
           max-height: 45px;
           border-radius: 0;
           width: 152px;
+          background-image: none;
+          background-color: $primary-color;
+          border: none;
+          color: $color-white;
+          &:hover {
+            background-color: $color-primary-hover;
+            background-image: none;
+          }
         }
         .o-form-select {
           border: 0 !important;
           .chzn-single {
             height: 45px;
-            border-color: #ccc;
+            border-color: $color-border;
             border-radius: 0;
             span {
               line-height: 45px;
@@ -541,6 +580,13 @@ body {
     .enroll-factor-list {
       margin-top: 37px;
       margin-bottom: 0;
+      .list-title {
+        color: #b3134e;
+        font-family: $font-family-montserrat;
+        font-weight: 400;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+      }
       .enroll-factor-label {
         font-family: $font-family-montserrat;
         font-weight: 400;
@@ -550,6 +596,7 @@ body {
         line-height: 19px;
       }
       .enroll-factor-description {
+        width: 100%;
         p {
           font-size: 16px;
           color: $color-text-gray;
@@ -560,7 +607,7 @@ body {
         display: inline-block;
         .button {
           border: 1px solid $primary-color;
-          background: #fff;
+          background: $color-white;
           color: $primary-color;
           padding: 0 13px;
           border-radius: 0;
@@ -577,6 +624,22 @@ body {
         &:last-child {
           margin-bottom: 0;
         }
+        &.enroll-factor-row-min {
+          .enroll-factor-description {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+          }
+          .enroll-factor-label {
+            margin-bottom: 0;
+          }
+          .enroll-factor-button {
+            display: none;
+          }
+        }
+        .success-16-green {
+          height: 24px;
+        } 
       }
       .enroll-factor-icon-container {
         margin-right: 24px;

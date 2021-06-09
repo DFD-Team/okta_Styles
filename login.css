@@ -295,21 +295,23 @@
 	 background-color: #007bb3;
 	 border: none;
 	 max-height: 40px;
+	 color: #fff;
 }
  body #okta-sign-in.auth-container .enroll-email .call-request-button.link-button.button:hover, body #okta-sign-in.auth-container .enroll-sms .call-request-button.link-button.button:hover, body #okta-sign-in.auth-container .enroll-call .call-request-button.link-button.button:hover, body #okta-sign-in.auth-container .enroll-activate-email .call-request-button.link-button.button:hover {
 	 background-color: #006098;
 	 background-image: none;
 }
- body #okta-sign-in.auth-container .enroll-email .link-button-disabled.button, body #okta-sign-in.auth-container .enroll-sms .link-button-disabled.button, body #okta-sign-in.auth-container .enroll-call .link-button-disabled.button, body #okta-sign-in.auth-container .enroll-activate-email .link-button-disabled.button {
-	 background: none;
-	 color: #333;
-	 border-color: #ccc;
-	 border-width: 0;
+ body #okta-sign-in.auth-container .enroll-email .link-button.link-button-disabled.button, body #okta-sign-in.auth-container .enroll-sms .link-button.link-button-disabled.button, body #okta-sign-in.auth-container .enroll-call .link-button.link-button-disabled.button, body #okta-sign-in.auth-container .enroll-activate-email .link-button.link-button-disabled.button {
+	 background: #fff !important;
+	 color: #333 !important;
+	 border: 1px solid #ccc !important;
+	 border-radius: 0;
+	 cursor: not-allowed;
 }
- body #okta-sign-in.auth-container .enroll-email .link-button-disabled.button:hover, body #okta-sign-in.auth-container .enroll-sms .link-button-disabled.button:hover, body #okta-sign-in.auth-container .enroll-call .link-button-disabled.button:hover, body #okta-sign-in.auth-container .enroll-activate-email .link-button-disabled.button:hover, body #okta-sign-in.auth-container .enroll-email .link-button-disabled.button:active, body #okta-sign-in.auth-container .enroll-sms .link-button-disabled.button:active, body #okta-sign-in.auth-container .enroll-call .link-button-disabled.button:active, body #okta-sign-in.auth-container .enroll-activate-email .link-button-disabled.button:active, body #okta-sign-in.auth-container .enroll-email .link-button-disabled.button:focus, body #okta-sign-in.auth-container .enroll-sms .link-button-disabled.button:focus, body #okta-sign-in.auth-container .enroll-call .link-button-disabled.button:focus, body #okta-sign-in.auth-container .enroll-activate-email .link-button-disabled.button:focus {
-	 background: none;
-	 color: #333;
-	 border-color: #ccc;
+ body #okta-sign-in.auth-container .enroll-email .link-button.link-button-disabled.button:hover, body #okta-sign-in.auth-container .enroll-sms .link-button.link-button-disabled.button:hover, body #okta-sign-in.auth-container .enroll-call .link-button.link-button-disabled.button:hover, body #okta-sign-in.auth-container .enroll-activate-email .link-button.link-button-disabled.button:hover, body #okta-sign-in.auth-container .enroll-email .link-button.link-button-disabled.button:active, body #okta-sign-in.auth-container .enroll-sms .link-button.link-button-disabled.button:active, body #okta-sign-in.auth-container .enroll-call .link-button.link-button-disabled.button:active, body #okta-sign-in.auth-container .enroll-activate-email .link-button.link-button-disabled.button:active, body #okta-sign-in.auth-container .enroll-email .link-button.link-button-disabled.button:focus, body #okta-sign-in.auth-container .enroll-sms .link-button.link-button-disabled.button:focus, body #okta-sign-in.auth-container .enroll-call .link-button.link-button-disabled.button:focus, body #okta-sign-in.auth-container .enroll-activate-email .link-button.link-button-disabled.button:focus {
+	 background: #fff !important;
+	 color: #333 !important;
+	 border-color: #ccc !important;
 }
  body #okta-sign-in.auth-container .enroll-email .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-sms .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-call .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-activate-email .sms-request-button.link-button.button {
 	 float: right;
@@ -321,6 +323,7 @@
 	 background-image: none;
 	 background-color: #007bb3;
 	 border: none;
+	 color: #fff;
 }
  body #okta-sign-in.auth-container .enroll-email .sms-request-button.link-button.button:hover, body #okta-sign-in.auth-container .enroll-sms .sms-request-button.link-button.button:hover, body #okta-sign-in.auth-container .enroll-call .sms-request-button.link-button.button:hover, body #okta-sign-in.auth-container .enroll-activate-email .sms-request-button.link-button.button:hover {
 	 background-color: #006098;

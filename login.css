@@ -559,6 +559,13 @@
 	 margin-top: 37px;
 	 margin-bottom: 0;
 }
+ body #okta-sign-in .enroll-factor-list .list-title {
+	 color: #b3134e;
+	 font-family: "Montserrat", Helvetica, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	 font-weight: 400;
+	 padding-bottom: 15px;
+	 margin-bottom: 0;
+}
  body #okta-sign-in .enroll-factor-list .enroll-factor-label {
 	 font-family: "Montserrat", Helvetica, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	 font-weight: 400;
@@ -566,6 +573,9 @@
 	 font-size: 16px;
 	 margin-bottom: 5px;
 	 line-height: 19px;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-description {
+	 width: 100%;
 }
  body #okta-sign-in .enroll-factor-list .enroll-factor-description p {
 	 font-size: 16px;
@@ -591,6 +601,17 @@
 }
  body #okta-sign-in .enroll-factor-list .enroll-factor-row:last-child {
 	 margin-bottom: 0;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-row.enroll-factor-row-min .enroll-factor-description {
+	 display: flex;
+	 justify-content: center;
+	 flex-direction: column;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-row.enroll-factor-row-min .enroll-factor-label {
+	 margin-bottom: 0;
+}
+ body #okta-sign-in .enroll-factor-list .enroll-factor-row.enroll-factor-row-min .enroll-factor-button {
+	 display: none;
 }
  body #okta-sign-in .enroll-factor-list .enroll-factor-icon-container {
 	 margin-right: 24px;

@@ -613,6 +613,9 @@
  body #okta-sign-in .enroll-factor-list .enroll-factor-row.enroll-factor-row-min .enroll-factor-button {
 	 display: none;
 }
+ body #okta-sign-in .enroll-factor-list .enroll-factor-row .success-16-green {
+	 height: 24px;
+}
  body #okta-sign-in .enroll-factor-list .enroll-factor-icon-container {
 	 margin-right: 24px;
 }

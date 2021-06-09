@@ -271,21 +271,21 @@
  body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):active, body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):hover, body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):focus {
 	 border-color: #999;
 }
- body #okta-sign-in.auth-container .enroll-email, body #okta-sign-in.auth-container .enroll-sms, body #okta-sign-in.auth-container .enroll-call {
+ body #okta-sign-in.auth-container .enroll-email, body #okta-sign-in.auth-container .enroll-sms, body #okta-sign-in.auth-container .enroll-call, body #okta-sign-in.auth-container .enroll-activate-email {
 	 margin-top: 76px;
 	 margin-bottom: 32px;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-button-bar, body #okta-sign-in.auth-container .enroll-sms .o-form-button-bar, body #okta-sign-in.auth-container .enroll-call .o-form-button-bar {
+ body #okta-sign-in.auth-container .enroll-email .o-form-button-bar, body #okta-sign-in.auth-container .enroll-sms .o-form-button-bar, body #okta-sign-in.auth-container .enroll-call .o-form-button-bar, body #okta-sign-in.auth-container .enroll-activate-email .o-form-button-bar {
 	 margin-bottom: 48px;
 }
- body #okta-sign-in.auth-container .enroll-email .enroll-call-phone, body #okta-sign-in.auth-container .enroll-sms .enroll-call-phone, body #okta-sign-in.auth-container .enroll-call .enroll-call-phone {
+ body #okta-sign-in.auth-container .enroll-email .enroll-call-phone, body #okta-sign-in.auth-container .enroll-sms .enroll-call-phone, body #okta-sign-in.auth-container .enroll-call .enroll-call-phone, body #okta-sign-in.auth-container .enroll-activate-email .enroll-call-phone {
 	 width: 243px;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-fieldset.enroll-sms-phone, body #okta-sign-in.auth-container .enroll-sms .o-form-fieldset.enroll-sms-phone, body #okta-sign-in.auth-container .enroll-call .o-form-fieldset.enroll-sms-phone {
+ body #okta-sign-in.auth-container .enroll-email .o-form-fieldset.enroll-sms-phone, body #okta-sign-in.auth-container .enroll-sms .o-form-fieldset.enroll-sms-phone, body #okta-sign-in.auth-container .enroll-call .o-form-fieldset.enroll-sms-phone, body #okta-sign-in.auth-container .enroll-activate-email .o-form-fieldset.enroll-sms-phone {
 	 float: left;
 	 width: calc(100% - 165px);
 }
- body #okta-sign-in.auth-container .enroll-email .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-sms .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-call .sms-request-button.link-button.button {
+ body #okta-sign-in.auth-container .enroll-email .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-sms .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-call .sms-request-button.link-button.button, body #okta-sign-in.auth-container .enroll-activate-email .sms-request-button.link-button.button {
 	 float: right;
 	 margin: 21px 0 0 0;
 	 height: 45px;
@@ -293,24 +293,24 @@
 	 border-radius: 0;
 	 width: 152px;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-select, body #okta-sign-in.auth-container .enroll-sms .o-form-select, body #okta-sign-in.auth-container .enroll-call .o-form-select {
+ body #okta-sign-in.auth-container .enroll-email .o-form-select, body #okta-sign-in.auth-container .enroll-sms .o-form-select, body #okta-sign-in.auth-container .enroll-call .o-form-select, body #okta-sign-in.auth-container .enroll-activate-email .o-form-select {
 	 border: 0 !important;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single {
+ body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single, body #okta-sign-in.auth-container .enroll-activate-email .o-form-select .chzn-single {
 	 height: 45px;
 	 border-color: #ccc;
 	 border-radius: 0;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single span, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single span, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single span {
+ body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single span, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single span, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single span, body #okta-sign-in.auth-container .enroll-activate-email .o-form-select .chzn-single span {
 	 line-height: 45px;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single div, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single div, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single div {
+ body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single div, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single div, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single div, body #okta-sign-in.auth-container .enroll-activate-email .o-form-select .chzn-single div {
 	 top: 0;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single div b, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single div b, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single div b {
+ body #okta-sign-in.auth-container .enroll-email .o-form-select .chzn-single div b, body #okta-sign-in.auth-container .enroll-sms .o-form-select .chzn-single div b, body #okta-sign-in.auth-container .enroll-call .o-form-select .chzn-single div b, body #okta-sign-in.auth-container .enroll-activate-email .o-form-select .chzn-single div b {
 	 background-position: 0 12px;
 }
- body #okta-sign-in.auth-container .enroll-email .o-form-control, body #okta-sign-in.auth-container .enroll-sms .o-form-control, body #okta-sign-in.auth-container .enroll-call .o-form-control {
+ body #okta-sign-in.auth-container .enroll-email .o-form-control, body #okta-sign-in.auth-container .enroll-sms .o-form-control, body #okta-sign-in.auth-container .enroll-call .o-form-control, body #okta-sign-in.auth-container .enroll-activate-email .o-form-control {
 	 border-radius: 0;
 }
  body #okta-sign-in.auth-container.main-container {

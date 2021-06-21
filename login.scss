@@ -639,7 +639,7 @@ body {
         }
         .success-16-green {
           height: 24px;
-        } 
+        }
       }
       .enroll-factor-icon-container {
         margin-right: 24px;
@@ -672,10 +672,24 @@ body {
       }
     }
 
-    .recovery-challenge .o-form-fieldset-container {
-      align-items: flex-start;
-      .button {
-        margin-top: 22px !important;
+    .recovery-challenge {
+      .o-form-fieldset-container {
+        align-items: flex-start;
+        .button {
+          margin-top: 22px !important;
+        }
+      }
+      .send-email-link-wrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        line-height: 22px;
+        font-size: 16px;
+        .link.send-email-link {
+          width: auto;
+          margin-top: 0;
+          margin-left: 5px;
+        }
       }
     }
     .o-form label {

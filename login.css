@@ -649,6 +649,15 @@
  body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button {
 	 margin-top: 22px !important;
 }
+ body #okta-sign-in .recovery-challenge .send-email-link-wrapper {
+	 margin-top: 20px;
+	 display: flex;
+	 justify-content: center;
+	 line-height: 22px;
+}
+ body #okta-sign-in .recovery-challenge .send-email-link-wrapper .link.send-email-link {
+	 width: auto;
+}
  body #okta-sign-in .o-form label {
 	 font-family: Helvetica, "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	 color: #737375;

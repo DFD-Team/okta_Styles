@@ -675,6 +675,7 @@
 }
  body #okta-sign-in .o-form .custom-checkbox label {
 	 font-size: 16px;
+	 padding-top: 8px;
 }
  body #okta-sign-in .o-form .o-form-input .o-form-control {
 	 height: 45px;

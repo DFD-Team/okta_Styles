@@ -356,6 +356,12 @@
  @media (max-width: 768px) {
 	 body #okta-sign-in.auth-container.main-container {
 		 margin: 0;
+		 overflow: hidden;
+	}
+}
+ @media (max-width: 330px) {
+	 body #okta-sign-in.auth-container.main-container {
+		 overflow: auto;
 	}
 }
  body #okta-sign-in.auth-container.main-container .recovery-question .o-form-button-bar, body #okta-sign-in.auth-container.main-container .password-reset .o-form-button-bar {

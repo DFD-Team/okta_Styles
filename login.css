@@ -7,6 +7,11 @@
 	 justify-content: space-between;
 	 background-color: #fff;
 }
+ @media (max-width: 768px) {
+	 .client-header {
+		 height: 60px;
+	}
+}
  @media (min-width: 769px) {
 	 .d-none-desktop {
 		 display: none !important;
@@ -27,11 +32,7 @@
 }
  @media (max-width: 768px) {
 	 .client-logo {
-		 background-color: #fff;
-		 display: flex;
-		 justify-content: center;
-		 padding: 8px 0;
-		 width: 100%;
+		 height: 60px;
 	}
 }
  .client-logo-diagonal {
@@ -44,7 +45,9 @@
 }
  @media (max-width: 768px) {
 	 .client-logo-diagonal {
-		 display: none;
+		 right: -30px;
+		 transform: skewX(-45deg);
+		 width: 75px;
 	}
 }
  .client-login-message {

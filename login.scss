@@ -6,6 +6,7 @@ $color-white: #fff;
 $color-border: #ccc;
 $color-bg: #f3f3f3;
 $header-height: 90px;
+$header-mobile-height: 60px;
 $input-height: 45px;
 $color-text-black: #000;
 $color-black: #333;
@@ -26,6 +27,9 @@ $mobile-max-breakpoint: $mobile-breakpoint - 1;
   align-items: center;
   justify-content: space-between;
   background-color: $color-white;
+  @media (max-width: $mobile-max-breakpoint) {
+    height: $header-mobile-height;
+  }
 }
 
 .d-none-desktop {
@@ -48,11 +52,7 @@ $mobile-max-breakpoint: $mobile-breakpoint - 1;
   height: 100%;
   position: relative;
   @media (max-width: $mobile-max-breakpoint) {
-    background-color: $color-white;
-    display: flex;
-    justify-content: center;
-    padding: 8px 0;
-    width: 100%;
+    height: $header-mobile-height;
   }
   &-diagonal {
     background-color: $color-white;
@@ -62,7 +62,9 @@ $mobile-max-breakpoint: $mobile-breakpoint - 1;
     transform: skewX(-41deg);
     width: 80px;
     @media (max-width: $mobile-max-breakpoint) {
-      display: none;
+      right: -30px;
+      transform: skewX(-45deg);
+      width: 75px;
     }
   }
 }

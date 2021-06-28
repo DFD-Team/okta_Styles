@@ -127,6 +127,7 @@
 	 .client-footer-links {
 		 margin-top: 13px;
 		 flex-wrap: wrap;
+		 flex-direction: column;
 	}
 }
  .client-footer-links > div {
@@ -138,7 +139,7 @@
 }
  @media (max-width: 768px) {
 	 .client-footer-height {
-		 height: 220px;
+		 height: 230px;
 	}
 }
  .client-footer .copyright {

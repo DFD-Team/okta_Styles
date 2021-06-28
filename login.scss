@@ -138,6 +138,7 @@ $mobile-max-breakpoint: $mobile-breakpoint - 1;
     @media (max-width: $mobile-max-breakpoint) {
       margin-top: 13px;
       flex-wrap: wrap;
+      flex-direction: column;
     }
     > div {
       line-height: 1;
@@ -147,7 +148,7 @@ $mobile-max-breakpoint: $mobile-breakpoint - 1;
     height: 124px;
     width: 100%;
     @media (max-width: $mobile-max-breakpoint) {
-      height: 220px;
+      height: 230px;
     }
   }
   .copyright {

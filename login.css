@@ -259,14 +259,16 @@
 	 text-align: center;
 }
  body #okta-sign-in.auth-container .mfa-verify .o-form-fieldset {
-	 min-width: calc(100% - 168px);
+	 width: 100%;
 }
  body #okta-sign-in.auth-container .mfa-verify .o-form-control {
 	 border-radius: 0;
 }
  body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary) {
-	 margin-top: 21px;
-	 min-width: 152px;
+	 margin-top: 0;
+	 margin-bottom: 15px;
+	 min-width: 100%;
+	 width: 100%;
 	 margin-left: auto;
 	 background: #fff;
 	 border-radius: 0;

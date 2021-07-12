@@ -270,12 +270,25 @@
 	 min-width: 100%;
 	 width: 100%;
 	 margin-left: auto;
-	 background: #fff;
+	 background: #0f8d3c;
 	 border-radius: 0;
-	 color: #737375;
+	 color: #fff;
+	 border-color: #0f8d3c;
 }
  body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):active, body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):hover, body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary):focus {
-	 border-color: #999;
+	 background-color: #169745;
+	 border-color: #169745;
+}
+ body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary).disabled {
+	 background: #fff;
+	 color: #737375;
+	 border-color: #737375;
+	 cursor: not-allowed;
+}
+ body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary).disabled:active, body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary).disabled:hover, body #okta-sign-in.auth-container .mfa-verify .button:not(.button-primary).disabled:focus {
+	 background: #fff;
+	 color: #737375;
+	 border-color: #737375;
 }
  body #okta-sign-in.auth-container .enroll-email, body #okta-sign-in.auth-container .enroll-sms, body #okta-sign-in.auth-container .enroll-call, body #okta-sign-in.auth-container .enroll-activate-email {
 	 margin-top: 76px;

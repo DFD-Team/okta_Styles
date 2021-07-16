@@ -676,6 +676,30 @@ body {
         align-items: flex-start;
         .button {
           margin-top: 22px !important;
+          &:not(.button-primary) {
+            background: $mfa-bg-color;
+            color: $color-white;
+            border-color: $mfa-bg-color;
+            &:active,
+            &:hover,
+            &:focus {
+              background-color: $mfa-bg-color-hover;
+              border-color: $mfa-bg-color-hover;
+            }
+            &.disabled {
+              background: $color-white;
+              color: $color-text-gray;
+              border-color: $color-text-gray;
+              cursor: not-allowed;
+              &:active,
+              &:hover,
+              &:focus {
+                background: $color-white;
+                color: $color-text-gray;
+                border-color: $color-text-gray;
+              }
+            }
+          }
         }
       }
       .send-email-link-wrapper {

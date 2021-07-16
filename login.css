@@ -647,6 +647,26 @@
  body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button {
 	 margin-top: 22px !important;
 }
+ body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button:not(.button-primary) {
+	 background: #0f8d3c;
+	 color: #fff;
+	 border-color: #0f8d3c;
+}
+ body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button:not(.button-primary):active, body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button:not(.button-primary):hover, body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button:not(.button-primary):focus {
+	 background-color: #169745;
+	 border-color: #169745;
+}
+ body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button:not(.button-primary).disabled {
+	 background: #fff;
+	 color: #737375;
+	 border-color: #737375;
+	 cursor: not-allowed;
+}
+ body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button:not(.button-primary).disabled:active, body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button:not(.button-primary).disabled:hover, body #okta-sign-in .recovery-challenge .o-form-fieldset-container .button:not(.button-primary).disabled:focus {
+	 background: #fff;
+	 color: #737375;
+	 border-color: #737375;
+}
  body #okta-sign-in .recovery-challenge .send-email-link-wrapper {
 	 margin-top: 20px;
 	 display: flex;
